@@ -1,0 +1,134 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: var(--bg-primary);
+    --text-primary: white;
+    --text-secondary: rgb(110, 118, 125);
+    --bg-primary: black;
+    --bg-secondary: #202327;
+    --hint-color: rgb(29, 161, 242);
+}
+
+.container {
+    width: min(90%, 700px);
+    margin-inline: auto;
+    border-left: 1px solid var(--bg-secondary);
+    border-right: 1px solid var(--bg-secondary);
+}
+
+.wd-text-secondary {
+    color: var(--text-secondary);
+}
+
+.wd-text-primary {
+    color: var(--text-primary);
+}
+
+.wd-navbar {
+    border-bottom: 1px solid var(--bg-secondary);
+    padding-inline: 16px;
+    position: sticky;
+}
+
+.wd-search {
+    width: 80%;
+    height: 35px;
+    background-color: var(--bg-secondary);
+    border: 0px;
+    border-radius: 20px;
+    padding-inline: 30px;
+}
+
+.wd-navbar-searchbar {
+    /* display: flex;
+    flex-direction: column; */
+    display: flex;
+    padding-inline-end: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wd-settings-icon {
+    display: inline-block;
+    cursor: pointer;
+    stroke: var(--hint-color);
+}
+
+.wd-navbar-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-inline: auto;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.wd-horizontal-item {
+    color: var(--text-secondary);
+    padding: 13px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wd-horizontal-item--active {
+    color: var(--hint-color);
+    border-bottom: 2px solid var(--hint-color);
+}
+
+.wd-posts {
+    list-style: none;
+    color: white;
+    padding: 0;
+}
+
+.wd-post {
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    justify-content: space-between;
+    border: 1px solid var(--bg-secondary);
+    align-items: center;
+}
+
+.wd-post-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.wd-post-subtitle {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+
+.wd-post-title {
+    color: var(--text-primary);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.wd-post-addon {
+    color: var(--text-secondary);
+}
+
+.wd-post-author {
+    font-size: 13px;
+    display: inline-flex;
+    flex-direction: row;
+    text-align: center;
+    font-weight: bold;
+    gap: 6px;
+}
+
+.wd-post-author > img {
+    height: 13px;
+    width: 13px;
+}
+
+.wd-post-addon > img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}

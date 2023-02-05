@@ -1,0 +1,147 @@
+body {
+    font-family: "Public Sans", sans-serif;
+    box-sizing: border-box;
+    background-color: var(--bg-primary);
+    --text-primary: white;
+    --text-secondary: rgb(110, 118, 125);
+    --bg-primary: black;
+    --bg-secondary: rgb(47, 51, 54);
+    --hint-color: rgb(29, 161, 242);
+}
+
+.container {
+    width: fit-content;
+    margin-inline: auto;
+    border-left: 1px solid var(--bg-secondary);
+    border-right: 1px solid var(--bg-secondary);
+}
+
+.wd-navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bg-secondary);
+    padding-inline: 16px;
+    padding-block: 12px;
+    position: sticky;
+}
+.wd-navbar-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+.wd-navbar-author {
+    font-size: 13px;
+    color: var(--text-secondary);
+}
+.wd-navbar-addon {
+    font-size: 20px;
+    text-align: center;
+    color: var(--hint-color);
+    cursor: pointer;
+}
+.wd-lists {
+    display: flex;
+    flex-direction: column;
+}
+.wd-text {
+    display: grid;
+    gap: 12px;
+    justify-content: start;
+    padding-inline: 16px;
+    padding-block: 12px;
+    grid-template-areas:
+    "profile-pic handle"
+    "profile-pic content"
+    "profile-pic link-preview"
+    "profile-pic actions";
+}
+.wd-profile-pic {
+    grid-area: profile-pic;
+    border-radius: 50%;
+}
+.wd-bookmark-text-profile-pic > img {
+    grid-area: profile-pic;
+    border-radius: 50%;
+}
+
+.wd-textarea {
+    grid-area: handle;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.wd-textarea-content {
+    color: var(--text-secondary);
+}
+
+.wd-textarea-content-title {
+    color: var(--text-primary);
+    font-weight: bold;
+}
+
+.wd-paragraph {
+    grid-area: content;
+    color: white;
+    max-width: 506px;
+}
+.wd-textarea-content-addon {
+    text-align: center;
+    color: var(--text-secondary);
+}
+.wd-bookmark {
+    grid-area: link-preview;
+    width: 504px;
+    border-radius: 20px;
+    border: 1px solid var(--bg-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+
+.wd-bookmark-img {
+    height: 264px;
+    width: 504px;
+    border-bottom: 1px solid var(--bg-secondary);
+}
+
+.wd-bookmark-img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.wd-bookmark-title {
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--text-primary);
+    padding-inline: 12px;
+    border-collapse: collapse;
+}
+.wd-bookmark-text {
+    font-size: 15px;
+    color: var(--text-secondary);
+    padding-inline: 12px;
+    border-collapse: collapse;
+}
+.wd-actions {
+    grid-area: actions;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wd-action {
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+.wd-action--active {
+    color: crimson;
+}
+.wd-action > * + * {
+    margin-left: 12px;
+}
