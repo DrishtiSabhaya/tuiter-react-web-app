@@ -1,21 +1,7 @@
-/*:root {*/
-/*    --primary: white;*/
-/*    --text-primary: black;*/
-/*    --text-secondary: white;*/
-/*}*/
-
-/*body {*/
-/*    background-color: white;*/
-/*}*/
-
-/*!* *Work around to align the stacked icon with rest of the icons *!*/
-/*.more-btn > span.fa-stack {*/
-/*    height: 1rem;*/
-/*    width: 1rem;*/
-/*    vertical-align: top;*/
-/*    line-height: 1.5rem;*/
-/*    color: white;*/
-/*}*/
+.icon {
+    width: 20px;
+    height: 20px;
+}
 
 .follow-avatar {
     height: 48px;
@@ -38,11 +24,6 @@
     padding-left: 10%;
 }
 
-/*.search-bar:focus {*/
-/*    background-color: gray;*/
-/*    !*color: white;*!*/
-/*}*/
-
 .fa-gear {
     color: royalblue;
 }
@@ -63,37 +44,3 @@
     width: 100px;
     object-fit: cover;
 }
-
-/*.btn {*/
-/*    background-color: var(--primary);*/
-/*    border-color: var(--primary);*/
-/*    color: var(--text-secondary);*/
-/*}*/
-
-/*.list-group .list-group-item {*/
-/*    background-color: white;*/
-/*    color: black;*/
-/*}*/
-
-/*.space {*/
-/*    margin-left: 15px;*/
-/*}*/
-
-/*.list-group-item.active {*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.nav-tabs {*/
-/*    background-color: white;*/
-/*    !*border-color: black;*!*/
-/*}*/
-
-/*.nav-item .nav-link {*/
-/*    color: rgb(110, 118, 125);*/
-/*}*/
-
-/*.nav-item .nav-link.active {*/
-/*    border: none;*/
-/*    font-weight: bold;*/
-/*    border-bottom: 2px solid var(--bs-primary);*/
-/*}*/
