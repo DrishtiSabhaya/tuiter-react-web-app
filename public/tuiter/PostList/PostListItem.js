@@ -1,11 +1,13 @@
 const PostListItem = (post) => `
     <li class="list-group-item d-flex justify-content-between align-items-center">
-      <div class="wd-bookmark wd-bottom-border">
-        <img src="${post.avatarImage}" alt="" class="rounded-circle avatar" />
-        <div class="wd-bookmark-content">
+      <div class="wd-bookmark wd-bottom-border d-flex">
+        <div class="flex-column">
+            <img src="${post.avatarImage}" alt="" class="rounded-circle avatar" />  
+        </div>
+        <div class="wd-bookmark-content flex-column">
           <div class="d-flex flex-row justify-content-between w-100">
             <div class="fw-bold d-flex align-items-center">
-              ${post.userName}
+              ${post.name}
               ${post.verified ? `<i class="fa-solid fa-circle-check"></i>` : ``}
               <div class="text-muted ms-1">@${post.userName}</div>
               <div class="text-muted ms-1">${post.time}</div>
@@ -28,7 +30,7 @@ const PostListItem = (post) => `
                   </a>
                 </div>` : ``}
               </div> `
-            }
+}
           <div class="wd-actions">
                 <a href="#" class="wd-action">
                     <i class="fa-solid fa-comment"></i>

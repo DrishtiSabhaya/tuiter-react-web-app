@@ -5,7 +5,7 @@ const posts = [
         userName: "elonmusk",
         verified: true,
         time: "23h",
-        description: "Amazing show about <a href='#'>@Inspiration4x</a> mission!",
+        content: "Amazing show about <a href='#'>@Inspiration4x</a> mission!",
         preview: {
             image: "https://occ-0-1723-1722.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABSTVj5DHrlahOykYCHrcwL63gTkGzcXodPQgvrJXFqQMFg4Ktgtxmh_fGFJbsMF9BwmIbdW4L17YdJejrxJNwqyEnAP-.jpg?r=3d5",
             title: "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
@@ -22,8 +22,7 @@ const posts = [
         userName: "nypost",
         verified: true,
         time: "23h",
-        content:
-            "Grimes seen reading Karl Marx following split with world's richest man Elon Musk  <a href='#'>trib.al/nx2Gfaq</a>",
+        content: "Grimes seen reading Karl Marx following split with world's richest man Elon Musk  <a href='#'>trib.al/nx2Gfaq</a>",
         preview: {
             image: "https://images.news18.com/ibnlive/uploads/2021/10/grimes-karl-marx-163331572816x9.jpg",
         },
