@@ -1,0 +1,51 @@
+.icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}
+
+.tweetbox {
+    background-color: black;
+}
+
+.follow-avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.search-parent {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-primary);
+}
+
+.search-bar {
+    padding-left: 10%;
+}
+
+.fa-gear {
+    color: royalblue;
+}
+
+.explore-banner-container {
+    position: relative;
+}
+
+.explore-banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color: white;
+}
+
+.explore-post-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}

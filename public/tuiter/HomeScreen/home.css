@@ -1,0 +1,40 @@
+.explore-banner-container {
+    position: relative;
+}
+
+.explore-banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color: white;
+}
+
+.explore-post-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-actions {
+    grid-area: actions;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wd-action {
+    color: var(--text-secondary);
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+}
+.wd-action--active {
+    color: crimson;
+}
+.wd-action > * + * {
+    margin-left: 12px;
+}
