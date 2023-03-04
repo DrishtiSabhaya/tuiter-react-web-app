@@ -1,0 +1,21 @@
+.explore-banner-container {
+    position: relative;
+}
+
+.explore-banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color: white;
+}
+
+.explore-post-img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.avatar {
+    height: 48px;
+    width: 48px;
+}

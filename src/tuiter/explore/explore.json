@@ -1,0 +1,27 @@
+[
+  {
+    "link": "#",
+    "title": "For You",
+    "active": true
+  },
+  {
+    "link": "#",
+    "title": "Trending",
+    "active": false
+  },
+  {
+    "link": "#",
+    "title": "New",
+    "active": false
+  },
+  {
+    "link": "#",
+    "title": "Sports",
+    "active": false
+  },
+  {
+    "link": "#",
+    "title": "Entertainment",
+    "active": false
+  }
+]

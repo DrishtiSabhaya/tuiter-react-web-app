@@ -1,0 +1,55 @@
+.wd-tabs li {
+    display: inline;
+}
+
+.wd-tabs {
+    padding-left: 0px;
+}
+
+.wd-selected {
+    border-bottom: 2px blue solid;
+    padding-bottom: 20px;
+}
+
+.wd-nudge-up {
+    bottom: 18px;
+    left: 25px;
+}
+
+.wd-bottom-2 {
+    bottom: 2px;
+}
+
+.wd-bottom-4 {
+    bottom: 4px;
+}
+
+.search-parent {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-bar {
+    padding-left: 10% !important;
+}
+
+.fa-gear {
+    cursor: pointer;
+}
+
+.explore-banner-container {
+    position: relative;
+}
+
+.explore-banner-title {
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    color: white;
+}
