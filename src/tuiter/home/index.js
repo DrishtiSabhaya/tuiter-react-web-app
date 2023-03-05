@@ -1,5 +1,3 @@
-import NavigationSidebar from "../navigation-sidebar";
-import PostSummaryList from "../post-summary-list";
 import HomeScreen from "./home";
 
 const HomeComponent = () => {
