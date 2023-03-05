@@ -1,7 +1,7 @@
 const navItems = [
     {
         title: "Home",
-        link: "../HomeScreen/home.html",
+        link: "../HomeScreen/home1.html",
         icons: ["fa-solid fa-house-chimney"],
     },
     {
