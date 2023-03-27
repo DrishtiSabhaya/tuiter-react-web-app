@@ -1,12 +1,13 @@
 import HomeScreen from "./home";
+import WhatsHappening from "./whats-happening";
+import Tuits from "../tuits";
 
 const HomeComponent = () => {
     return (
         <>
             <div>
-                {/*<div class="col-xl-6 col-lg-7 col-10 d-flex flex-column gap-1">*/}
-                    <HomeScreen />
-                {/*</div>*/}
+                <WhatsHappening/>
+                <Tuits/>
             </div>
         </>
     );

@@ -10,7 +10,7 @@ function App() {
           <div className="container">
               <Routes>
                   <Route path="hello" exact={true} element={<HelloWorld />} />
-                  <Route path="/" exact={true} element={<Labs />} />
+                  <Route path="/*" exact={true} element={<Labs />} />
                   <Route path="/tuiter/*" exact={true} element={<Tuiter />} />
               </Routes>
           </div>

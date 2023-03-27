@@ -1,0 +1,29 @@
+.wd-avatar {
+    height: 48px;
+    width: 48px;
+}
+
+.wd-post-preview {
+    text-decoration: none;
+}
+
+.wd-text-muted {
+    color: rgb(110, 118, 125);
+}
+
+.wd-post-item-preview-card {
+    border-radius: 20px !important;
+}
+
+.card-img-top {
+    border-radius: 20px !important;
+}
+
+.wd-post-item-preview-bottom-flat {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+
+.wd-tuit-liked {
+    color: red;
+}
