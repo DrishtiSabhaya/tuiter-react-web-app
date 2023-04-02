@@ -12,7 +12,7 @@ import HomeComponent from "./home";
 import ProfileComponent from "./profile";
 import EditProfileComponent from "./profile/edit-profile";
 
-const store = configureStore({reducer : {who : WhoReducer, tuits : tuitsReducer, profile : profileReducer}});
+const store = configureStore({reducer : {who : WhoReducer, tuitsData : tuitsReducer, profile : profileReducer}});
 
 function Tuiter() {
     return (
