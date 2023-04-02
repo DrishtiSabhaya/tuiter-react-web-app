@@ -58,11 +58,13 @@ const tuitsSlice = createSlice({
                                            (state, payload ) => {
                                                state.loading = false
                                                const p = {payload}
+                                               const likes = p.payload.payload.likes >= 1 ? true : false;
+                                               const dislikes = p.payload.payload.dislikes < 1 ? 0 : p.payload.payload.dislikes;
                                                const tuitNdx = state.tuits.findIndex((t) => t._id === p.payload.payload._id)
                                                state.tuits[tuitNdx] = {
                                                    ...state.tuits[tuitNdx],
-                                                   ...p.payload.payload
-                                               }
+                                                   ...p.payload.payload,
+                                                   liked: likes                                            }
                                            }
                                    },
                                    reducers: {
