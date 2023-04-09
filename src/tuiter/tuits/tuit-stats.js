@@ -30,7 +30,7 @@ const TuitStats = ({ post }) => {
                 <div className="wd-cursor-pointer" onClick={() => {
                     dispatch(updateTuitThunk({
                                                  ...post,
-                                                 dislikes: post.dislikes - 1
+                                                 dislikes: post.dislikes + 1
                                              }))}}>
                     <FontAwesomeIcon icon={solid('thumbs-down')}/>
                     <span className="text-muted ps-2">{post.dislikes}</span>
